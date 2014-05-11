@@ -6,15 +6,6 @@
             [clojurewerkz.crawlista.extraction.links
              :refer [extract-local-urls extract-local-followable-urls]]))
 
-(defn url?
-  "True if url is a valid URL."
-  ([url]
-     (try
-       (new java.net.URL url)
-       true
-       (catch Exception e
-         false))))
-
 (def url->source
   ^{:tag String
     :doc "Takes a url and returns the source code from that url"

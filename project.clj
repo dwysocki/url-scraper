@@ -1,4 +1,4 @@
-(defproject url-scraper "0.1.0-SNAPSHOT"
+(defproject url-scraper "0.1.0"
   :description "A library for scraping words from webpages, and performing
                various operations on them."
   :url "https://github.com/Rosnec/url-scraper"
